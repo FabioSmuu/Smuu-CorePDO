@@ -57,7 +57,7 @@ function artigo($id)
 Perceba que o parametro $id teve de passar por um filtro, pois este parametro será injetado um valor de fora do banco de dados para dentro dele e isso evitará o uso de InjectSQL.
 
 O retorno nome, foi dado diretamente no retorno da função, pois queremos jogar este valor em uma pagina php comun exibindo um paragrafo em html e para fazer isso, basca criar a leitura da seguinte forma:
-```html
+```php
 //arquivo exemplo.html (OBS: este arquivo não existe na documentação)
 <p><?=artigo('7')?></p>
 ```
