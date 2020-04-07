@@ -8,7 +8,7 @@ Aviso basico: Os arquivos reais do projetose encontra na pasta [#](/%23), o rest
 |-|-|
 | Função de Login |  [session.php linha 48](%23/session.php#L48) |
 | Função de Registro |  [session.php linha 86](%23/session.php#L86) |
-| Função de Deslogdo |  [session.php inha 46](%23/session.php#L46) |
+| Função de Deslogdo |  [session.php inha 40](%23/session.php#L40) |
 
 ### Configuraões:
 - Configure seu banco de dados mysql no arquivo [config.php](/%23/config.php).
@@ -18,7 +18,7 @@ Aviso basico: Os arquivos reais do projetose encontra na pasta [#](/%23), o rest
 #
 # Como Usar:
 ### Efetuando conexão por form:
-Na linha 11 do arquivo [index.php](/index.php#L11) você irá se deparar com algo semelhante a:
+Na linha 12 do arquivo [index.php](/index.php#L12) você irá se deparar com algo semelhante a:
 ```php
 <?=logar('email', 'senha')?>
 ```
