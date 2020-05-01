@@ -10,7 +10,7 @@ Aviso basico: Os arquivos reais do projetose encontra na pasta [#](/%23), o rest
 | Função de Registro |  [session.php linha 86](%23/session.php#L86) |
 | Função de Deslogdo |  [session.php inha 40](%23/session.php#L40) |
 
-### Configurçaões:
+### Configurações:
 - Configure seu banco de dados mysql no arquivo [config.php](/%23/config.php).
 - Em [query.php](/%23/query.php) se entronca as funções usadas para exibição de valores.
 - Na [session.php](%23/session.php) pode se configurar todas as informações de seções.
